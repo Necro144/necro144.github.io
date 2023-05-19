@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -107,7 +106,8 @@ a.bold {
 <div class="container">
   <img src="https://cdn.discordapp.com/attachments/487048128365592607/1103756993711321118/a1ucCi6XcOxhniwHUARxEwyKPKUff7QK7t9_hVudhoso2IF0REce-CQ3Yn7qwSQOtM9mAV8NpaGfCvrmMRAQ5GVuZXQ_PGZDLSGeH7uJxEGWDWlXYP8f-6hNO596ODza1h-l4gGgdaneGeXFoMI4zhPWlbXbH6CqI661E-7mat1MxXZQbr_yipmSy7pT8O1aHY5JoUbngC-vRxVfWheJnEIJNY2zAWVYnBsEQtw4x0dDKnRtErDb6SiEVfue9waFaa2HQTq4BXA7y_OgIj_482fuyvLyhrbZ-ARDH8u-iuTaa54-zemFvxRnb1IatQujBcJ2jbMe18zvadcCLaUdico1qfMcFfWfrj3tRBhHfwe_viwXIk9iaTdzjX8-KZ7BaOFmkqZWCppoEEwK5yndIjMOceP2HE5ZCRKYIX3EI0HHRw-ALfqP1Z-bfvcfWxm8p9cojxXH7x4LltZj7O-v525ewFHoUwScH8qIYIjAFgzFtECBV7vDd7dvxN0Z..png" alt="Profile Picture" class="profile-pic">
   <h1 class="name glow">Qusai Ali</h1>
-  <h3 class="title glow">Lens Creator - Video Editor - Photographer - Videographer - Writer</h3>
+  <h3 class="title glow">Lens Creator - Video Editor
+  <h3 class="title glow">Photographer - Videographer - Writer</h3>
 
   <button class="glow-button">
     <span class="glow-text">Snapchat: </span><a href="https://www.snapchat.com/add/nekro.me" target="_blank" class="bold"> +Add</a>
