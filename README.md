@@ -1,7 +1,5 @@
 <html>
 <head>
-  <img src="https://cdn.imgbin.com/8/12/9/imgbin-counter-strike-global-offensive-counter-strike-source-counter-strike-condition-zero-counter-strike-1-6-counter-strike-7MfCtXHZXg9bP4vyCirzQ5iu3.jpg" alt="Icon">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><style>
 body {
   background-color: black;
