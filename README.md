@@ -44,7 +44,7 @@ body {
 /* Adjust button styles for mobile */
 .glow-button {
   display: block;
-  margin: 30px 5;
+  margin: 30px 6px;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -56,7 +56,7 @@ body {
   box-shadow: 0 0 10px #000;
   transition: box-shadow 0.3s ease-in-out;
   width: 100%;
-  max-width: 250px;
+  max-width: 210px;
 }
 
 .glow-button:hover {
@@ -95,7 +95,7 @@ a.bold {
     font-size: 16px;
   }
   .email {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 </style>
@@ -106,22 +106,22 @@ a.bold {
   <img src="https://i.stack.imgur.com/l60Hf.png" alt="Profile Picture" class="profile-pic">
   <h1 class="name glow">Qusai Ali</h1>
   <h3 class="title glow">Lens Creator - Video Editor
-  <h3 class="title glow">Photographer - Videographer - Writer</h3>
+  <h3 class="title glow">Videographer - Writer</h3>
 
   <button class="glow-button">
-    <span class="glow-text">Snapchat: </span><a href="https://www.snapchat.com/add/nekro.me" target="_blank" class="bold"> +Add</a>
+    <span class="glow-text">Snap: </span><a href="https://www.snapchat.com/add/nekro.me" target="_blank" class="bold"> +Add</a>
   </button>
 
   <button class="glow-button">
-    <span class="glow-text">Instagram: </span><a href="https://www.instagram.com/8si.ig" target="_blank" class="bold"> +Follow</a>
+    <span class="glow-text">IG: </span><a href="https://www.instagram.com/8si.ig" target="_blank" class="bold"> +Follow</a>
   </button>
 
   <button class="glow-button">
-    <span class="glow-text">Mail: </span><a href="mailto:Necro144@yahoo.com" class="bold"> >Send</a>
+    <span class="glow-text">Mail: </span><a href="mailto:Necro144@yahoo.com" class="bold">Send</a>
   </button>
 
   <button class="glow-button">
-    <span class="glow-text">CS1.6: </span><a href="https://necro144.github.io/members.html" class="bold"> View Members</a>
+    <span class="glow-text">CS1.6: </span><a href="https://necro144.github.io/members.html" class="bold"> View</a>
   </button>
 
   <p class="email glow-text">This website can be accessed via www.8si.me</p>
