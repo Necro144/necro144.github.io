@@ -1,4 +1,20 @@
 <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Add your mobile-friendly styles here */
+    /* For example, adjust the font size and layout for smaller screens */
+    body {
+      font-size: 16px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      body {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
 <head>
 <style>
 body {
