@@ -47,6 +47,7 @@ body {
 <div class="container">
   <img src="https://cdn.discordapp.com/attachments/487048128365592607/1103756993711321118/a1ucCi6XcOxhniwHUARxEwyKPKUff7QK7t9_hVudhoso2IF0REce-CQ3Yn7qwSQOtM9mAV8NpaGfCvrmMRAQ5GVuZXQ_PGZDLSGeH7uJxEGWDWlXYP8f-6hNO596ODza1h-l4gGgdaneGeXFoMI4zhPWlbXbH6CqI661E-7mat1MxXZQbr_yipmSy7pT8O1aHY5JoUbngC-vRxVfWheJnEIJNY2zAWVYnBsEQtw4x0dDKnRtErDb6SiEVfue9waFaa2HQTq4BXA7y_OgIj_482fuyvLyhrbZ-ARDH8u-iuTaa54-zemFvxRnb1IatQujBcJ2jbMe18zvadcCLaUdico1qfMcFfWfrj3tRBhHfwe_viwXIk9iaTdzjX8-KZ7BaOFmkqZWCppoEEwK5yndIjMOceP2HE5ZCRKYIX3EI0HHRw-ALfqP1Z-bfvcfWxm8p9cojxXH7x4LltZj7O-v525ewFHoUwScH8qIYIjAFgzFtECBV7vDd7dvxN0Z..png" alt="Profile Picture" class="profile-pic">
   <h1 class="name glow">Qusai Ali</h1> aka Néć[Ř]ø /A/
+<p>WE HAVE MOVED OUR WEBSITE AND SHRINKED IT TO THIS VERSION</p>
   <h3 class="title glow">Lens Creator - Video Editor - Photographer - Videographer - Writer</h3>
   <style>
     /* Apply color to links */
@@ -119,7 +120,7 @@ body {
     <button class="glow-button">
         <span class="glow-text">CS1.6: </span><a href="https://necro144.github.io/members.html" class="bold">NS Members</a>
     </button>
-  <p class="email glow">www.8si.me</p>
+  <p class="email glow">www.8si.me // www.necro144.com</p>
 </div>
 </body>
 </html>
