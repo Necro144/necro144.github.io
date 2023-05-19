@@ -15,10 +15,10 @@ body {
 }
 
 .profile-pic {
-  width: 15px;
+  width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 6px solid white;
+  border: 5px solid white;
   box-shadow: 0 0 100px rgba(255, 255, 100, 0.5);
 }
 
