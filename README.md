@@ -1,7 +1,6 @@
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><style>
 body {
   background-color: black;
   font-family: Times New Roman, Verdana;
@@ -10,7 +9,6 @@ body {
 }
 
 .container {
-  text-align: center;
   margin-top: 100px;
 }
 
@@ -46,12 +44,12 @@ body {
 /* Adjust button styles for mobile */
 .glow-button {
   display: block;
-  margin: 10px auto;
+  margin: 30px 5;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   color: #fff;
-  font-size: 16px;
+  font-size: 30px;
   text-align: center;
   text-decoration: none;
   background-color: #000;
@@ -101,10 +99,11 @@ a.bold {
   }
 }
 </style>
+
 </head>
 <body>
 <div class="container">
-  <img src="https://cdn.discordapp.com/attachments/487048128365592607/1103756993711321118/a1ucCi6XcOxhniwHUARxEwyKPKUff7QK7t9_hVudhoso2IF0REce-CQ3Yn7qwSQOtM9mAV8NpaGfCvrmMRAQ5GVuZXQ_PGZDLSGeH7uJxEGWDWlXYP8f-6hNO596ODza1h-l4gGgdaneGeXFoMI4zhPWlbXbH6CqI661E-7mat1MxXZQbr_yipmSy7pT8O1aHY5JoUbngC-vRxVfWheJnEIJNY2zAWVYnBsEQtw4x0dDKnRtErDb6SiEVfue9waFaa2HQTq4BXA7y_OgIj_482fuyvLyhrbZ-ARDH8u-iuTaa54-zemFvxRnb1IatQujBcJ2jbMe18zvadcCLaUdico1qfMcFfWfrj3tRBhHfwe_viwXIk9iaTdzjX8-KZ7BaOFmkqZWCppoEEwK5yndIjMOceP2HE5ZCRKYIX3EI0HHRw-ALfqP1Z-bfvcfWxm8p9cojxXH7x4LltZj7O-v525ewFHoUwScH8qIYIjAFgzFtECBV7vDd7dvxN0Z..png" alt="Profile Picture" class="profile-pic">
+  <img src="https://i.stack.imgur.com/l60Hf.png" alt="Profile Picture" class="profile-pic">
   <h1 class="name glow">Qusai Ali</h1>
   <h3 class="title glow">Lens Creator - Video Editor
   <h3 class="title glow">Photographer - Videographer - Writer</h3>
@@ -125,5 +124,5 @@ a.bold {
     <span class="glow-text">CS1.6: </span><a href="https://necro144.github.io/members.html" class="bold"> View Members</a>
   </button>
 
-  <p class="email glow">www.8si.me</p>
+  <p class="email glow-text">This website can be accessed via www.8si.me</p>
 
