@@ -112,7 +112,9 @@ body {
         <span class="glow-text">Mail: </span><a href="mailto:Necro144@yahoo.com" class="bold"> >Send</a>
     </button>
 
+
+    <button class="glow-button">
+        <span class="glow-text">CS1.6: </span><a href="https://necro144.github.io/members.html" class="bold"> View Members</a>
+    </button>
+
   <p class="email glow">www.8si.me</p>
-</div>
-</body>
-</html>
