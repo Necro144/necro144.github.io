@@ -1,5 +1,7 @@
 <html>
 <head>
+ <link rel="icon" href="https://icon-library.com/images/counter-strike-icon/counter-strike-icon-23.jpg" type="image/x-icon">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><style>
 body {
   background-color: black;
