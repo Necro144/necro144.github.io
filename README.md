@@ -126,7 +126,4 @@ a.bold {
   </button>
 
   <p class="email glow">www.8si.me</p>
-</div>
-</body>
-</html>
 
