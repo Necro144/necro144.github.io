@@ -1,61 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <script type="text/javascript">
-    document.addEventListener("contextmenu", function(event) {
-      event.preventDefault();
-    });
-  </script>
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Application</title>
   <style>
     body {
-      background-color: black;
+      background-color: #1a1a1a;
       color: white;
       font-family: Arial, sans-serif;
       text-align: center;
+      margin: 0;
+      padding: 0;
     }
 
     h2 {
-      margin-top: 0;
+      margin-top: 20px;
     }
 
     .options {
       display: flex;
       justify-content: center;
-      margin-bottom: 40px;
+      margin-top: 30px;
     }
 
     .option {
-      margin: 0 10px;
+      margin: 0 15px;
     }
 
     .option a {
       color: white;
       text-decoration: none;
-      border: 1px solid white;
+      border: 2px solid white;
       padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
     }
 
     .option a:hover {
       background-color: white;
-      color: black;
+      color: #1a1a1a;
     }
   </style>
 </head>
-
 <body>
-  <h2>Admin Application</h2>
+  <h2>Adminship Application</h2>
+  <p>This is your Admin Application section paragraph. Encourage potential employees to apply for a job at your company.</p>
+  
+  <p><strong>WARNING:</strong> Please do notice that you must have at least 10 hours on one of our servers, otherwise you likely won't be selected as a part of our community. Thanks for understanding!</p>
+  
+  <p><strong>NOTE:</strong> If you wish to get a player tag, you have two options:</p>
+  <ol>
+    <li>Buy a permanent tag for $5.00.</li>
+    <li>Have 3 of your teammates register on this site and play for at least 1 hour on the server you want the tag for.</li>
+  </ol>
+  
+  <p>Claim your name on GameTracker to avoid losing your playtime.</p>
+  
   <div class="options">
     <div class="option">
       <a href="mailto:necro144@yahoo.com">Send Message to Admin</a>
     </div>
-    <div class="option">
-      <a href="https://steamcommunity.com/groups/ns144" target="_blank">Apply through Steam Group</a>
-    </div>
   </div>
 </body>
-
 </html>
