@@ -13,6 +13,24 @@
     text-decoration: none;
   }
 </style>
+<script>
+  // Disable right-click context menu
+  window.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+
+  // Disable Ctrl+U shortcut
+  window.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.key === 'u') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable all keyboard shortcuts
+  window.addEventListener('keydown', function(e) {
+    e.preventDefault();
+  });
+</script>
 <head>
  <link rel="icon" href="https://icon-library.com/images/counter-strike-icon/counter-strike-icon-23.jpg" type="image/x-icon">
 <center>
