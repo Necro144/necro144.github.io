@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1144977648532066375/6kfmreM9A2oalG5Nr8Mx8OOQZDZIceHpXhwtT93eHKskbdWl0Gy1Sn4IOrr2epCGhfFV"
+DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/497887605736603688/amPHFdtU97zMoXlm33Gc3DWXfvx0pYKGvX7JW6M-y5Hq1kIoAs-pdWMcZx1BCTHXExI6"
 
 @app.route("/")
 def index():
@@ -18,7 +18,7 @@ def submit():
     data = {
         "content": f"New membership application:\nUsername: {username}\nEmail: {email}"
     }
-    response = requests.post(https://discord.com/api/webhooks/1144977648532066375/6kfmreM9A2oalG5Nr8Mx8OOQZDZIceHpXhwtT93eHKskbdWl0Gy1Sn4IOrr2epCGhfFV, json=data)
+    response = requests.post(https://discord.com/api/webhooks/497887605736603688/amPHFdtU97zMoXlm33Gc3DWXfvx0pYKGvX7JW6M-y5Hq1kIoAs-pdWMcZx1BCTHXExI6, json=data)
 
     if response.status_code == 204:
         return "Application submitted and Discord notification sent!"
