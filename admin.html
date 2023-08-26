@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+    <script>
+        // Disable right-click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Prevent copying and pasting
+        document.addEventListener("keydown", function (e) {
+            if (e.ctrlKey || e.metaKey) {
+                e.preventDefault();
+            }
+        });
+    </script>
 <head>
     <title>Access Code Page</title>
     <style>
