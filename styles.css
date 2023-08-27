@@ -61,4 +61,22 @@ body {
     background-color: #111; /* Dark background color */
     color: #fff; /* Light text color */
 }
+/* Use the Lato font for headings */
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+    /* Add more font properties here */
+}
+
+/* Use the Lato font for paragraphs */
+p {
+    font-family: 'Lato', sans-serif;
+    /* Add more font properties here */
+}
+
+/* Use the Lato font for navigation links */
+nav a {
+    font-family: 'Lato', sans-serif;
+    /* Add more font properties here */
+}
+
 
