@@ -1,151 +1,199 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<style>
+  /* Style for normal links */
+  a {
+    color: blue; /* Change this to your desired color */
+    text-decoration: none;
+  }
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>|NS| Necro Gaming Community</title>
-    <link rel="icon" href="counter-strike-icon-1.jpg">
+  /* Style for external links */
+  a[href^="http"]:not([href*="your-website-domain.com"]),
+  a[href^="https"]:not([href*="your-website-domain.com"]) {
+    color: yellow; /* Change this to your desired color for external links */
+    text-decoration: none;
+  }
+</style>
+<script>
+  // Disable right-click context menu
+  window.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+
+  // Disable Ctrl+U shortcut
+  window.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.key === 'u') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable all keyboard shortcuts
+  window.addEventListener('keydown', function(e) {
+    e.preventDefault();
+  });
+</script>
+<head>
+ <link rel="icon" href="counter-strike-icon-1.jpg">
+<center>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><style>
+body {
+  background-color: black;
+  font-family: Times New Roman;
+  color: yellow;
+  padding: 25px;
+}
+
+.container {
+  margin-top: 15px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid yellow;
+  box-shadow: 0 0 100px rgba(5, 50, 20, 1.5);
+}
+
+.name {
+  font-size: 29px;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 100, 0.5);
+}
+
+.title {
+  font-size: 18px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 10px rgba(0, 200, 0, 0.5);
+}
+
+.email {
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.glow {
+  text-shadow: 0 2 10px rgba(100, 255, 255, 0.7);
+}
+
+/* Adjust button styles for mobile */
+.glow-button {
+  display: block;
+  margin: 23px 4px;
+  padding: 10px 0px;
+  border: null;
+  border-radius: 1px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000;
+  box-shadow: 0 0 10px #000;
+  transition: box-shadow 1s ease-in-out;
+  width: 100%;
+  max-width: 210px;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 20px #ff0, 0 0 4110px #ff0, 0 0 90px red;
+}
+
+.glow-text {
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #ff0;
+  }
+  100% {
+    text-shadow: 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0;
+  }
+}
+
+/* Remove underline from links */
+a {
+  text-decoration: none;
+}
+
+/* Apply bold font weight to links */
+a.bold {
+  font-weight: bold;
+}
+
+/* Adjust font sizes for mobile */
+@media only screen and (max-width: 600px) {
+  .name {
+    font-size: 21px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .email {
+    font-size: 10px;
+  }
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+  <img src="photo-output_cropped.png" alt="Profile Picture" class="profile-pic">
+  <h1 class="name glow">Necro</h1>
+  <h3 class="title glow">ᴘʜᴏᴛᴏɢʀᴀᴘʜᴇʀ | ᴘᴇʀsᴏɴᴀʟ ɢʀᴏᴡᴛʜ ᴄᴀᴛᴀʟʏsᴛ | sʜᴏʀᴛ ǫᴜᴏᴛᴇs ᴇɴᴛʜᴜsɪᴀsᴛ | ɪɴsᴘɪʀɪɴɢ ᴘᴏsɪᴛɪᴠᴇ ᴄʜᴀɴɢᴇ
+
+  <button class="glow-button">
+    <span class="glow-text"></span><a href="https://forms.gle/xYrZZ9fpS7uLdr8T7" target="_blank" class="bold">+Book a Photo session</a>
+  </button>
+
+  <button class="glow-button">
+    <span class="glow-text"><font size=2>GAMING: </span><a href="listingservers.html" target="_blank" class="bold">+Visit NS Servers</a>
+  </button>
+
+  <button class="glow-button">
+    <span class="glow-text">Banned? </span><a href="bans.html" target="_blank" class="bold"> Learn more</a>
+  </button>
+
+  <button class="glow-button">
+    <span class="glow-text">Snap: </span><a href="https://www.snapchat.com/add/nekro.me" target="_blank" class="bold"> +Add</a>
+  </button>
+  
+  <button class="glow-button">
+    <span class="glow-text">Portal: </span><a href="portal.html" target="_blank" class="bold"> Main NS Page</a>
+  </button>
+
+  <button class="glow-button">
+    <span class="glow-text">CS1.6: </span><a href="members.html" class="bold"> View Members</a>
+  </button>
+
+  <button class="glow-button">
+    <span class="glow-text">Admin App: </span><a href="admin-application.html" class="bold"> +Apply</a>
+  </button>
+
+  <button class="glow-button">
+    <span class="glow-text">IG: </span><a href="https://www.instagram.com" target="_blank" class="bold"> +SOON</a>
+  </button>
+
+  <button class="glow-button">
+    <span class="glow-text">Server Logs: </span><a href="logs.html" target="_blank" class="bold">Visit</a>
+  </button>
+
+  <button class="glow-button">
+    <span class="glow-text">Mail: </span><a href="mailto:Necro144@yahoo.com" class="bold">Send</a>
+  </button>
+  <script type="text/javascript">
+    document.addEventListener("contextmenu", function(event) {
+      event.preventDefault();
+    });
+  </script>
 
     <style>
         body {
-            background-image: url('5039684.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            font-family: Arial, sans-serif;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-            padding: 50px;
-        }
-        
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 10px solid yellow;
-            box-shadow: 0 0 100px rgba(5, 50, 20, 0.5);
-            margin: 20px auto;
-        }
-        
-        .name {
-            font-size: 32px;
-            margin-top: 20px;
-            text-shadow: 2px 2px 4px rgba(255, 255, 100, 0.5);
-        }
-        
-        .title {
-            font-size: 18px;
-            margin-top: 10px;
-            text-shadow: 2px 2px 10px rgba(0, 200, 0, 0.5);
-        }
-        
-        .email {
-            margin-top: 10px;
-            text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
-        }
-        
-        .glow {
-            text-shadow: 0 0 10px rgba(100, 255, 255, 0.7);
-        }
-        
-        .glow-button {
-            display: block;
-            margin: 23px auto;
-            padding: 10px 0px;
-            border: none;
-            border-radius: 1px;
-            color: #fff;
-            font-size: 16px;
-            text-align: center;
-            text-decoration: none;
-            background-color: #000;
-            box-shadow: 0 0 10px #000;
-            transition: box-shadow 1s ease-in-out;
-            width: 100%;
-            max-width: 210px;
-        }
-        
-        .glow-button:hover {
-            box-shadow: 0 0 20px #ff0, 0 0 40px #ff0, 0 0 60px #ff0;
-        }
-        
-        .glow-text {
-            animation: glow 1s ease-in-out infinite alternate;
-        }
-        
-        @keyframes glow {
-            0% {
-                text-shadow: 0 0 5px #ff0;
-            }
-            100% {
-                text-shadow: 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0;
-            }
-        }
-        
-        a {
-            color: #00f;
-            text-decoration: none;
-        }
-        
-        a:hover {
-            text-decoration: underline;
+            background-image: url('5039684.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+            background-size: cover; /* This will cover the entire background */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-attachment: fixed; /* Fixed background while scrolling */
         }
     </style>
-</head>
-<body>
 
-    <div class="container">
-        <img src="photo-output_cropped.png" alt="Profile Picture" class="profile-pic">
-        <h1 class="name glow">|NS| Necro</h1>
-        <h3 class="title glow">Photographer | Personal Growth Catalyst | Short Quotes Enthusiast | Inspiring Positive Change</h3>
-
-        <button class="glow-button">
-            <span class="glow-text"></span><a href="https://forms.gle/xYrZZ9fpS7uLdr8T7" target="_blank" class="bold">Book a Photo Session</a>
-        </button>
-
-        <button class="glow-button">
-            <span class="glow-text">GAMING: </span><a href="listingservers.html" target="_blank" class="bold">Visit NS Servers</a>
-        </button>
-
-        <button class="glow-button">
-            <span class="glow-text">Banned? </span><a href="bans.html" target="_blank" class="bold">Learn More</a>
-        </button>
-
-        <button class="glow-button">
-            <span class="glow-text">Snap: </span><a href="https://www.snapchat.com/add/nekro.me" target="_blank" class="bold">Add</a>
-        </button>
-
-        <button class="glow-button">
-            <span class="glow-text">Portal: </span><a href="portal.html" target="_blank" class="bold">Main NS Page</a>
-        </button>
-
-        <button class="glow-button">
-            <span class="glow-text">CS1.6: </span><a href="members.html" class="bold">View Members</a>
-        </button>
-
-        <button class="glow-button">
-            <span class="glow-text">Admin App: </span><a href="admin-application.html" class="bold">Apply</a>
-        </button>
-
-        <button class="glow-button">
-            <span class="glow-text">IG: </span><a href="https://www.instagram.com" target="_blank" class="bold">Coming Soon</a>
-        </button>
-
-        <button class="glow-button">
-            <span class="glow-text">Server Logs: </span><a href="logs.html" target="_blank" class="bold">Visit</a>
-        </button>
-
-        <button class="glow-button">
-            <span class="glow-text">Mail: </span><a href="mailto:Necro144@yahoo.com" class="bold">Send Email</a>
-        </button>
-    </div>
-</body>
-</html>
+    
+  <p class="email glow-text">Made by |NS| Necro /A/</p>
