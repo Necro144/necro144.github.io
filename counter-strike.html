@@ -47,13 +47,13 @@
         .video-container {
             position: absolute;
             top: 50%;
-            right: 0;
+            right: 20px; /* Adjust the right position as needed */
             transform: translate(0, -50%);
         }
 
         .video-container iframe {
-            width: 300px; /* Adjust the width as needed */
-            height: 169px; /* Maintain the 16:9 aspect ratio */
+            width: 300px;
+            height: 169px;
         }
 
         .links {
@@ -62,12 +62,12 @@
 
         .links a {
             text-decoration: none;
-            color: #333; /* Link color */
+            color: #333;
             margin-right: 20px;
         }
 
         .links a:hover {
-            text-decoration: underline; /* Correct the text-decoration value */
+            text-decoration: none;
         }
     </style>
 </head>
@@ -88,5 +88,38 @@
     <div class="video-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/CfwuiWw2Q1I?si=kDvHsmXdOUoLFp4i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
+
+<style>
+  /* Style for normal links */
+  a {
+    color: yellow; /* Change this to your desired color */
+    text-decoration: none;
+  }
+
+  /* Style for external links */
+  a[href^="http"]:not([href*="your-website-domain.com"]),
+  a[href^="https"]:not([href*="your-website-domain.com"]) {
+    color: yellow; /* Change this to your desired color for external links */
+    text-decoration: none;
+  }
+</style>
+<script>
+  // Disable right-click context menu
+  window.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+
+  // Disable Ctrl+U shortcut
+  window.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.key === 'u') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable all keyboard shortcuts
+  window.addEventListener('keydown', function(e) {
+    e.preventDefault();
+  });
+</script>
 </body>
 </html>
