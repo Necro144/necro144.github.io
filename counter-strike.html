@@ -10,9 +10,7 @@
             background-image: url('https://i.imgur.com/Mw63ivr.png');
             background-size: cover;
             background-repeat: no-repeat;
-            font-family: Georgia, serif
-
-;
+            font-family: Georgia, serif;
             display: flex;
             align-items: center;
             height: 100vh;
@@ -24,6 +22,11 @@
             margin-left: 40px; /* Adjust the margin as needed */
             max-width: 450px; /* Adjust the width as needed */
             border-radius: 15px;
+            text-align: center; /* Center the content inside the container */
+        }
+
+        .box-text {
+            text-align: left; /* Align text to the left inside the box */
         }
 
         h1 {
@@ -32,6 +35,18 @@
 
         p {
             font-size: 18px;
+        }
+
+        .video-container {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translate(0, -50%);
+        }
+
+        .video-container iframe {
+            width: 300px; /* Adjust the width as needed */
+            height: 169px; /* Maintain the 16:9 aspect ratio */
         }
 
         .links {
@@ -45,19 +60,26 @@
         }
 
         .links a:hover {
-            text-decoration: null;
+            text-decoration: underline; /* Correct the text-decoration value */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Nostalgia CS1.6 Servers!</h1>
-        <p>Step back in time and relive the glory days of CS1.6 with our nostalgic servers featuring beloved classic maps. Join us for a trip down memory lane!</p>
-        <div class="links">
-            <a href="https://necro144.github.io/listingservers" target="_blank">Listing Servers</a>
-            <a href="mailto:Necro144@yahoo.com">Contact</a>
-            <a href="https://necro144.github.io/logs" target="_blank">Servers Log</a>
+        <div class="box-text">
+            <h1>Welcome to Nostalgia CS1.6 Servers!</h1>
+            <p>Step back in time and relive the glory days of CS1.6 with our nostalgic servers featuring beloved classic maps. Join us for a trip down memory lane!</p>
+            <div class="links">
+                <a href="https://necro144.github.io/listingservers" target="_blank">Listing Servers</a>
+                <a href="mailto:Necro144@yahoo.com">Contact</a>
+                <a href="https://necro144.github.io/logs" target="_blank">Servers Log</a>
+            </div>
         </div>
+    </div>
+
+    <!-- Video Container -->
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CfwuiWw2Q1I?si=kDvHsmXdOUoLFp4i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </body>
 </html>
