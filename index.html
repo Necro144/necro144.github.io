@@ -9,7 +9,7 @@
   /* Style for external links */
   a[href^="http"]:not([href*="your-website-domain.com"]),
   a[href^="https"]:not([href*="your-website-domain.com"]) {
-    color: yellow; /* Change this to your desired color for external links */
+    color: #4c92d3; /* Change this to your desired color for external links */
     text-decoration: none;
   }
 </style>
@@ -38,8 +38,8 @@
 body {
   background-color: black;
   font-family: Times New Roman;
-  color: yellow;
-  padding: 25px;
+  color: #4c92d3;
+  padding: 65px;
 }
 
 .container {
@@ -47,11 +47,11 @@ body {
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
-  border: 5px solid yellow;
-  box-shadow: 0 0 100px rgba(5, 50, 20, 1.5);
+  border: 2px #4c92d3;
+  box-shadow: 0 0 100px rgba(155, 155, 255, 0.5);
 }
 
 .name {
@@ -78,23 +78,23 @@ body {
 /* Adjust button styles for mobile */
 .glow-button {
   display: block;
-  margin: 18px 4px;
-  padding: 15px 0px;
+  margin: 19px 4px;
+  padding: 15px 1px;
   border: null;
   border-radius: 1px;
   color: #c7d5e0;
-  font-size: 14px;
+  font-size: 34px;
   text-align: center;
   text-decoration: none;
   background-color: #000;
   box-shadow: 0 0 10px #000;
   transition: box-shadow 1s ease-in-out;
   width: 100%;
-  max-width: 210px;
+  max-width: 810px;
 }
 
 .glow-button:hover {
-  box-shadow: 0 0 20px #c7d5e0, 0 0 4110px #ff0, 0 0 90px #c7d5e0;
+  box-shadow: 0 0 20px #c7d5e0, 0 0 4110px #4c92d3, 0 0 90px #4c92d3;
 }
 
 .glow-text {
@@ -103,10 +103,10 @@ body {
 
 @keyframes glow {
   0% {
-    text-shadow: 0 0 5px #ff0;
+    text-shadow: 0 0 2px #4c92d3;
   }
   100% {
-    text-shadow: 0 0 20px #ff0, 0 0 20px #ff0, 0 0 40px #ff0;
+    text-shadow: 0 0 20px #4c92d3, 0 0 10px #4c92d3, 0 0 20px #4c92d3;
   }
 }
 
@@ -137,48 +137,42 @@ a.bold {
 </head>
 <body>
 <div class="container">
-  <img src="photo-output_cropped.png" alt="Profile Picture" class="profile-pic">
+  <img src="lambda.png" alt="Profile Picture" class="profile-pic">
   <h1 class="name glow">Necro</h1>
   <h3 class="title glow">ᴘʜᴏᴛᴏɢʀᴀᴘʜᴇʀ | ᴘᴇʀsᴏɴᴀʟ ɢʀᴏᴡᴛʜ ᴄᴀᴛᴀʟʏsᴛ
 
+
   <button class="glow-button">
-    <span class="glow-text"></span><a href="https://forms.gle/xYrZZ9fpS7uLdr8T7" target="_blank" class="bold">+Book a Photo session</a>
+    <span class="glow-text"><font size=5><a href="listingservers" target="_blank" class="bold"><font color=white>+Visit NS Servers</font color></a></span>
   </button>
 
   <button class="glow-button">
-    <span class="glow-text"><font size=2>GAMING: </span><a href="listingservers" target="_blank" class="bold">+Visit NS Servers</a>
+    <span class="glow-text">Appeal »</span><a href="bans" target="_blank" class="bold"> Learn more</a>
   </button>
 
   <button class="glow-button">
-    <span class="glow-text">Banned? </span><a href="bans" target="_blank" class="bold"> Learn more</a>
-  </button>
-
-  <button class="glow-button">
-    <span class="glow-text">Snap: </span><a href="https://www.snapchat.com/add/nekro.me" target="_blank" class="bold"> +Add</a>
+    <span class="glow-text">Snap »</span><a href="https://www.snapchat.com/add/nekro.me" target="_blank" class="bold"> +Add</a>
   </button>
   
+
   <button class="glow-button">
-    <span class="glow-text">Portal: </span><a href="portal" target="_blank" class="bold"> Main NS Page</a>
+    <span class="glow-text">CS1.6 »</span><a href="members.html" class="bold"> NS Members</a>
   </button>
 
   <button class="glow-button">
-    <span class="glow-text">CS1.6: </span><a href="members.html" class="bold"> View Members</a>
+    <span class="glow-text">CS1.6 »</span><a href="old_members" class="bold"> Old List</a>
   </button>
 
   <button class="glow-button">
-    <span class="glow-text">CS Members: </span><a href="old_members" class="bold"> Old List</a>
+    <span class="glow-text">Admin App »</span><a href="admin-application" class="bold"> +Apply</a>
   </button>
 
   <button class="glow-button">
-    <span class="glow-text">Admin App: </span><a href="admin-application" class="bold"> +Apply</a>
+    <span class="glow-text">Instagram »</span><a href="https://www.instagram.com/qusai.ali99" target="_blank" class="bold"> +Follow</a>
   </button>
 
   <button class="glow-button">
-    <span class="glow-text">IG: </span><a href="https://www.instagram.com" target="_blank" class="bold"> +SOON</a>
-  </button>
-
-  <button class="glow-button">
-    <span class="glow-text">Server Logs: </span><a href="logs" target="_blank" class="bold">Visit</a>
+    <span class="glow-text">News/Logs »</span><a href="logs" target="_blank" class="bold"> Check</a>
   </button>
 
   <button class="glow-button">
