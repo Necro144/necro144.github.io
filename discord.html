@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Discord</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #36393F; /* Discord background color */
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.11); /* Faded white background */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        p {
+            font-size: 54px;
+            margin-bottom: 20px;
+            color: #FFFFFF; /* White text color */
+        }
+        button {
+            font-size: 60px;
+            background-color: #7289DA; /* Discord blue color */
+            color: #FFFFFF; /* White text color */
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #677BC4; /* Slightly darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Click the button below to copy my Discord username:</p>
+        <button id="copyButton" data-clipboard-text="nec_1999">Copy nec_1999</button>
+    </div>
+
+    <!-- Include Clipboard.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+    <script>
+        // Initialize Clipboard.js
+        new ClipboardJS('#copyButton');
+
+        // Define a function to handle success or error when copying
+        document.getElementById('copyButton').addEventListener('click', function() {
+            // You can customize this message to show a success or error message
+            alert('Username copied to clipboard: nec_1999');
+        });
+    </script>
+</body>
+</html>
