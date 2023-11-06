@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="icon" type="image/png" href="disc.png">
-    <title>My Discord</title>
+    <title>Discord Username</title>
     <style>
         body {
             display: flex;
@@ -19,19 +19,19 @@
             border-radius: 10px;
         }
         p {
-            font-size: 54px;
+            font-size: 24px;
             margin-bottom: 20px;
-            color: #FFFFFF; /* White text color */
+            color: #ABCFFF; /* White text color */
         }
         button {
             font-size: 60px;
             background-color: #7289DA; /* Discord blue color */
-            color: #FFFFFF; /* White text color */
+            color: #ABCFFF; /* White text color */
             border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
+            border-radius: 1px;
+            padding: 10px 150px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            transition: background-color 1.3s ease;
         }
         button:hover {
             background-color: #677BC4; /* Slightly darker blue on hover */
@@ -40,8 +40,8 @@
 </head>
 <body>
     <div class="container">
-        <p>Click the button below to copy my Discord username:</p>
-        <button id="copyButton" data-clipboard-text="nec_1999">Copy nec_1999</button>
+        <p>Click to copy my Discord username:</p>
+        <button id="copyButton" data-clipboard-text="nec_1999">nec_1999</button>
     </div>
 
     <!-- Include Clipboard.js library -->
@@ -49,12 +49,9 @@
 
     <script>
         // Initialize Clipboard.js
-        new ClipboardJS('#copyButton');
-
-        // Define a function to handle success or error when copying
-        document.getElementById('copyButton').addEventListener('click', function() {
-            // You can customize this message to show a success or error message
-            alert('Username copied to clipboard: nec_1999');
+        new ClipboardJS('#copyButton').on('success', function(e) {
+            e.clearSelection();
+            alert('Username copied to clipboard: ' + e.text);
         });
     </script>
 </body>
