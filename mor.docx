@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morphology Worksheet by Student Qusai</title>
+</head>
+<body>
+
+<p>Warning: I am not responsible for your mid-term or final term marks. By reading or having this copy, you agree that you do not rely on this sheet.</p>
+
+<h2>CHAPTER 1</h2>
+
+<h3>Chapter Summary: What is Morphology?</h3>
+
+<p><strong>Morphology Overview:</strong></p>
+<ul>
+    <li>Morphology is the study of word formation, encompassing the creation of new words and variations in word forms based on their usage in sentences.</li>
+    <li>Native speakers intuitively understand how to form new words and recognize unfamiliar words.</li>
+</ul>
+
+<p><strong>Word Formation Examples:</strong></p>
+<ul>
+    <li>Examples like "splatz" (verb for 'step on broken glass') illustrate intuitive knowledge of word formation.</li>
+    <li>Suffixes like -ize (crystallize) and -ify (codify) are used to create verbs from nouns.</li>
+</ul>
+
+<p><strong>Intuitive Knowledge:</strong></p>
+<ul>
+    <li>Native speakers possess intuitive knowledge of word formation principles, even if they can't explicitly articulate them.</li>
+</ul>
+
+<p><strong>Simple and Complex Words:</strong></p>
+<ul>
+    <li>Words can be simple (one morpheme) or complex (multiple morphemes).</li>
+    <li>Morpheme definition: the smallest unit of language with its own meaning.</li>
+</ul>
+
+<h3>Counting Words:</h3>
+<p>Different ways to count words: tokens (individual occurrences), types (unique words), and lexemes (word families).</p>
+
+<p><strong>Lexeme Formation:</strong></p>
+<ul>
+    <li>Morphology serves to form new lexemes from existing ones, involving changes in part of speech or the addition of substantial meaning.</li>
+</ul>
+
+<p><strong>Inflection:</strong></p>
+<ul>
+    <li>Inflectional word formation doesn't create new lexemes but alters grammatical forms to fit different contexts.</li>
+    <li>English has relatively limited inflection compared to other languages.</li>
+</ul>
+
+<p><strong>Types of Lexeme Formation:</strong></p>
+<ul>
+    <li>Category-changing lexeme formation (e.g., V→N, N→A).</li>
+    <li>Meaning-changing lexeme formation (e.g., A→'negative A', N→'place where N lives').</li>
+    <li>Both category and meaning-changing lexeme formation (e.g., V→A, N→V).</li>
+</ul>
+
+<p><strong>Why Languages Have Morphology:</strong></p>
+<ul>
+    <li>Morphology serves purposes like lexeme formation and inflection to efficiently express a wide range of concepts.</li>
+</ul>
+
+<h3>Book Organization:</h3>
+<p>Subsequent chapters will delve into questions about what constitutes a "real" word, different ways lexemes are formed, inflection, typology, and the relationship between morphology, syntax, and phonology.</p>
+
+<h3>Summary:</h3>
+<p>Morphology studies words, their formation, and the rules governing their structure and meaning.</p>
+
+<h2>CHAPTER 1</h2>
+
+<h3 id="exercise-1">Exercise 1:</h3>
+<ol>
+    <li><strong>Simple or Complex Words:</strong>
+        <ol type="a">
+            <li>members - <strong>Complex</strong> (morpheme: member + plural -s)</li>
+            <li>prioritize - <strong>Complex</strong> (morpheme: priority + ize)</li>
+            <!-- ... (similar entries) -->
+        </ol>
+    </li>
+</ol>
+
+<h3 id="q-2">Q 2:</h3>
+<ol>
+    <li><strong>Lexeme Classification:</strong>
+        <ol type="a">
+            <li>revolve revolution - <strong>Different Lexemes</strong></li>
+            <!-- ... (similar entries) -->
+        </ol>
+    </li>
+</ol>
+
+<!-- ... (similar sections for Q 3, Q 4, Q 5, and subsequent chapters) -->
+
+</body>
+</html>
