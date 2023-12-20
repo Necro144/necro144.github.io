@@ -4,6 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin List</title>
+<link rel="icon" href="counter-strike-icon-1.jpg">
+<script>
+  // Disable right-click context menu
+  window.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+
+  // Disable Ctrl+U shortcut
+  window.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.key === 'u') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable all keyboard shortcuts
+  window.addEventListener('keydown', function(e) {
+    e.preventDefault();
+  });
+</script>
+
   <style>
     body {
       background-color: #121212;
